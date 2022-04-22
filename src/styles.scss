@@ -3,12 +3,12 @@
 }
 
 html {
-  --bg: #fff;
+  --bg: aquamarine;
   --fg: #25282A;
-  --gray: #888;
+  //--gray: #888;
   --royal: #0072CE;
   --blue: #6AD1E3;
-  --primary: #D1CCBD;
+  --primary: black;
   --secondary: var(--royal);
   --tertiary: #FF585D;
 
@@ -61,7 +61,7 @@ fieldset {
 }
 
 label {
-  color: var(--gray);
+  //color: var(--gray);
 }
 
 button, .highlight {
@@ -95,7 +95,7 @@ input[type="number"] {
 }
 
 button, input {
-  background: transparent;
+  background: white;
   color: inherit;
   cursor: pointer;
   font: inherit;

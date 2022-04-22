@@ -5,7 +5,7 @@ import { WalletSelectorContextProvider } from "./contexts/WalletSelectorContext"
 const App: React.FC = () => {
   return (
     <Fragment>
-      <h1>NEAR Guest Book</h1>
+      <h1>NEAR Spring Hackathon Challenge</h1>
       <WalletSelectorContextProvider>
         <Content />
       </WalletSelectorContextProvider>
