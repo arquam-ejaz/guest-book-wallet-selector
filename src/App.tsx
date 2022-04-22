@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-
 import Content from "./components/Content";
 import { WalletSelectorContextProvider } from "./contexts/WalletSelectorContext";
 
