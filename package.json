@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "(MIT AND Apache-2.0)",
   "scripts": {
+    "web":"nodemon --watch assembly -e ts --exec parcel src/index.html",
     "build": "yarn build:contract && yarn build:web",
     "build:contract": "asb",
     "build:contract:debug": "asb --target debug",
