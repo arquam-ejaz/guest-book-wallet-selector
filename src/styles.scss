@@ -69,7 +69,7 @@ button, .highlight {
   border-color: var(--primary);
   border: 0.1em solid var(--primary);
   padding: 0.5em 1em;
-
+  margin-right:10px;
   &:hover, &:focus, &:focus-within {
     border-color: var(--secondary);
   }

@@ -2,9 +2,6 @@ import React, { useContext, useEffect, useState } from "react";
 import NearWalletSelector, { AccountInfo } from "@near-wallet-selector/core";
 import { setupNearWallet } from "@near-wallet-selector/near-wallet";
 import { setupSender } from "@near-wallet-selector/sender";
-import { setupMathWallet } from "@near-wallet-selector/math-wallet";
-import { setupLedger } from "@near-wallet-selector/ledger";
-import { setupWalletConnect } from "@near-wallet-selector/wallet-connect";
 
 interface WalletSelectorContextValue {
   selector: NearWalletSelector;
@@ -50,19 +47,8 @@ export const WalletSelectorContextProvider: React.FC = ({ children }) => {
       network: "testnet",
       contractId: "guest-book.testnet",
       wallets: [
-        setupNearWallet(),
-        setupSender(),
-        setupLedger(),
-        setupMathWallet(),
-        setupWalletConnect({
-          projectId: "c4f79cc...",
-          metadata: {
-            name: "NEAR Wallet Selector",
-            description: "Example dApp used by NEAR Wallet Selector",
-            url: "https://github.com/near/wallet-selector",
-            icons: ["https://avatars.githubusercontent.com/u/37784886"],
-          },
-        }),
+        setupNearWallet({'iconUrl': "https://freecoins24.io/wp-content/uploads/2021/06/NEAR-Logo.jpg"}),
+        setupSender({'iconUrl': "https://pbs.twimg.com/profile_images/1457986163059396610/chOS75o7_400x400.jpg"}),
       ],
     })
       .then((instance) => {
