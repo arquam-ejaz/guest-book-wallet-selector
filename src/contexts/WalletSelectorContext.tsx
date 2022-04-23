@@ -45,7 +45,7 @@ export const WalletSelectorContextProvider: React.FC = ({ children }) => {
   useEffect(() => {
     NearWalletSelector.init({
       network: "testnet",
-      contractId: "guest-book.testnet",
+      contractId: "guest-book.aejaz.testnet",
       wallets: [
         setupNearWallet({'iconUrl': "https://freecoins24.io/wp-content/uploads/2021/06/NEAR-Logo.jpg"}),
         setupSender({'iconUrl': "https://pbs.twimg.com/profile_images/1457986163059396610/chOS75o7_400x400.jpg"}),
