@@ -225,4 +225,4 @@ var e=require("buffer").Buffer;Object.defineProperty(exports,"__esModule",{value
 },{"react":"n8MK","./components/Content":"gIf7","./contexts/WalletSelectorContext":"z9n2"}],"wdqJ":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom"));require("./styles.scss");var t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"react":"n8MK","react-dom":"NKHc","./styles.scss":"I4sy","./App":"NHn6"}]},{},["wdqJ"], null)
-//# sourceMappingURL=main.126cab00.js.map
+//# sourceMappingURL=main.7d94ac93.js.map
